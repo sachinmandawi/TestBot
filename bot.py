@@ -11,7 +11,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # load_dotenv()
-TOKEN = "8439636405:AAEjMlqnusb2Ih_i204NVCSizkNRrRbm9GY"  # Replace with your actual token
+TOKEN = "8439636405:AAFPBRPwEakDr1P4lf5CAOR3gN2b0oNyZdQ"  # Replace with your actual token
 
 def create_application(token: str | None = None):
     """Return an Application instance. Raises RuntimeError if token is missing."""
@@ -49,6 +49,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
 
